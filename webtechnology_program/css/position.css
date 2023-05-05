@@ -1,0 +1,15 @@
+#demo{
+    height: 600px;
+    width: 600px;
+    border: 5px solid red;
+    overflow:auto;
+    top: 500px;
+    position: relative;
+    
+}
+#demo img{
+position: fixed;
+top: 200px;
+left: 700px;
+
+}

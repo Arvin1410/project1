@@ -1,0 +1,138 @@
+div {
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    /* border-radius: 360px; */
+    position: absolute;
+    top: 1px;
+    animation-name: snake;
+    animation-duration: 6s;
+    /* animation-iteration-count: infinite; */
+    animation-direction: reverse;
+
+}
+
+@keyframes snake {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 400px;
+    }
+
+    100% {
+        top: 0px;
+    }
+
+}
+
+#d1 {
+    animation-delay: 1s;
+    left: 0px;
+}
+
+#d2 {
+    animation-delay: 1.5s;
+    left: 100px;
+}
+
+#d3 {
+    animation-delay: 2s;
+    left: 200px;
+}
+
+#d4 {
+    animation-delay: 2.5s;
+    left: 300px;
+}
+
+#d5 {
+    animation-delay: 3s;
+    left: 400px;
+}
+
+#d6 {
+    animation-delay: 3.5s;
+    left: 500px;
+}
+
+#d7 {
+    animation-delay: 4s;
+    left: 600px;
+}
+
+#d8 {
+    animation-delay: 4.5s;
+    left: 700px;
+}
+
+#d9 {
+    animation-delay: 5s;
+    left: 800px;
+}
+
+#d10 {
+    animation-delay: 5.5s;
+    left: 900px;
+}
+
+#d11 {
+    animation-delay: 6s;
+    left: 1000px;
+}
+
+#d12 {
+    animation-delay: 6.5s;
+    left: 1100px;
+}
+
+#d13 {
+    animation-delay: 7s;
+    left: 1200px;
+}
+
+#d14 {
+    animation-delay: 7.5s;
+    left: 1300px;
+}
+
+#d15 {
+    animation-delay: 8s;
+    left: 1400px;
+}
+
+#d16 {
+    animation-delay: 8.5s;
+    left: 1500px;
+}
+
+#d17 {
+    animation-delay: 9s;
+    left: 1600px;
+}
+
+#d18 {
+    animation-delay: 9.5s;
+    left: 1700px;
+}
+
+#d19 {
+    animation-delay: 10s;
+    left: 1800px;
+}
+
+#d20 {
+    animation-delay: 10.5s;
+    left: 1900px;
+}
+
+#d21 {
+    animation-delay: 11s;
+    left: 2000px;
+}
+
+#d22 {
+    animation-delay: 11.5s;
+    left: 2100px;
+}

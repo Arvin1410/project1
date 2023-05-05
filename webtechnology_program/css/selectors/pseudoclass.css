@@ -1,0 +1,24 @@
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:orangered;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+div:hover{
+    background-color: red;
+    width: 200px;
+    height: 500px;
+   
+    /* font-size: 200PX; */
+}

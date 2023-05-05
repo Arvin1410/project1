@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    border: 10px dotted yellow; 
+    animation-name:  one123; 
+    animation-duration: 5s;
+ /* transition-delay: 5s; */
+ transition-duration: 5s;
+
+    
+}
+@keyframes one123{
+    0%{
+        transform: translatex(0);
+    }
+    25%{
+        transform: translateY(50%);
+    }
+    50%{
+        transform: rotate(90deg)
+    }
+    75%{
+        transform: translatex(100%);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+/* article:hover{
+   transform: translate(100px);
+   transform: rotate(90deg);
+   transform: scale(2,2);
+
+  
+} */

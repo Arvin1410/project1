@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+}
+nav{ background-color: blue;
+    height: 45px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+#svg{
+    position: relative;
+    right: 135px;
+    top: 15px;
+}
+nav input{
+    position: relative;
+    width: 250px;
+    height: 25px;
+    top:6.5px ;
+    left: 150px;
+}
+#flip{
+    position: relative;
+    color: white;
+    left: 110px;
+    top: 5px;
+}
+#explore{
+    position: relative;
+    right: 400px;
+    top: 17px;
+}
+nav button{
+    height: 20px;
+    width: 70px;
+    position: relative;
+    top: 8.5px;
+    right: 100px;
+}
+nav .demo{
+    position: relative;
+    top: 8px;
+  color: white;
+}

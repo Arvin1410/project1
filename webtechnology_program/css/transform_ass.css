@@ -1,0 +1,138 @@
+#div1{
+width: 100px;
+height: 100px;
+border: 2px red dotted;
+background-color: aqua;
+background-image:url(./images/single.png);
+background-repeat: no-repeat;
+background-size: cover;
+transition-duration: 5s;
+}
+#div1:hover{
+transform: rotate(90deg);
+
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    border: 2px red dotted;
+    background-color: rgb(149, 14, 14);
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+    background-image:url(./images/single.png);
+background-repeat: no-repeat;
+background-size: cover;
+transition-duration: 5s;
+    }
+    #div2:hover{
+       transform: skew(90deg,90deg);
+        
+        }
+#div3{
+        width: 100px;
+        height: 100px;
+        border: 2px red dotted;
+        background-color: aqua;
+        position: relative;
+        bottom: 200px;
+        left: 260px;
+        background-image:url(./images/single.png);
+background-repeat: no-repeat;
+background-size: cover;
+transition-duration: 5s;
+        }
+        #div3:hover{
+            transform: skewX(90deg);
+            
+            }
+#div4{
+            width: 100px;
+            height: 100px;
+            border: 2px red dotted;
+            background-color: aqua;
+            position: relative;
+            bottom: 300px;
+            left: 390px;
+            background-image:url(./images/single.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+            }
+            #div4:hover{
+                transform:scale(0.5,0.5);
+                
+                }
+
+                #div5{
+                    width: 100px;
+                    height: 100px;
+                    border: 2px red dotted;
+                    background-color: aqua;
+                    position: relative;
+                    bottom: 200px;
+                    background-image:url(./images/snapchat);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition-duration: 5s;
+        
+                    }
+                    #div5:hover{
+                        transform:rotate(180deg);
+                        
+                        }
+                        #div6{
+                            width: 100px;
+                            height: 100px;
+                            border: 2px red dotted;
+                            background-color: aqua;
+                            position: relative;
+                            bottom: 300px;
+                            left: 130px;
+                            background-image:url(./images/snapchat);
+                background-repeat: no-repeat;
+                background-size: cover;
+                transition-duration: 5s;
+                
+                            }
+                            #div6:hover{
+                                transform:skew(20deg,30deg);
+                                
+                                }
+                                #div7{
+                                    width: 100px;
+                                    height: 100px;
+                                    border: 2px red dotted;
+                                    background-color: aqua;
+                                    position: relative;
+                                    bottom: 400px;
+                                    left: 260px;
+                                    background-image:url(./images/snapchat);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        transition-duration: 5s;
+                        
+                                    }
+                                    #div7:hover{
+                                        transform:scale(0.5);
+                                        
+                                        }
+
+                                        #div8{
+                                            width: 100px;
+                                            height: 100px;
+                                            border: 2px red dotted;
+                                            background-color: aqua;
+                                            position: relative;
+                                            bottom: 500px;
+                                            left: 390px;
+                                            background-image:url(./images/snapchat);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                transition-duration: 5s;
+                                
+                                            }
+                                            #div8:hover{
+                                                transform:translate(100px,200px);
+                                                
+                                                }

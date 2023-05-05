@@ -1,0 +1,12 @@
+div{
+height: 400px;
+width: 600px;
+border: 100px solid black;
+background-color: pink;
+opacity: 1.0;
+border-top: 50px groove red;
+border-bottom: 50px dotted yellow;
+border-left: 50px inset purple;
+border-right: 50px outset blue;
+border-radius: 20px;
+}

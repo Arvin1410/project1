@@ -1,0 +1,9 @@
+.con{
+    display: flex;
+    column-gap: 2px;
+}
+.con>div{
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+}

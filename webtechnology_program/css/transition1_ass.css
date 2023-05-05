@@ -1,0 +1,70 @@
+#demo1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:ease ;
+    transition-duration: 5s;
+   
+}
+#demo1:hover{
+width: 200px;
+}
+#demo2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(64, 10, 93);
+    transition:ease;
+    transition-duration: 5s;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    animation-name: arvin1;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    
+}
+@keyframes arvin1{
+from{ width: 100px;
+position: relative;
+}
+to{ width: 200px;
+    position: fixed;
+ }
+}
+#demo3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(114, 8, 80);
+    transition:ease ;
+    transition-delay: 10s;
+    transition-duration: 5s;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+    animation-name: arvin2;
+    animation-duration: 5s;
+    animation-delay: 12s;
+}
+@keyframes arvin2{
+    from{ width: 100px;}
+    to{ width: 200px;}
+    }
+#demo4{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(26, 147, 11, 0.524);
+    transition:ease ;
+    transition-delay: 15s;
+    transition-duration: 5s;
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    animation-name: arvin3;
+    animation-duration: 5s;
+    animation-delay: 15s;
+    
+}
+@keyframes arvin3{
+    from{ width: 100px;}
+    to{ width: 200px;}
+    }

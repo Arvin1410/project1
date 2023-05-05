@@ -1,0 +1,10 @@
+const z=100;
+var b=200;
+// console.log(y);
+let y=400;
+console.log(b);
+console.log(z);
+var b=400;
+console.log(b);
+let p=500;
+console.log(p);

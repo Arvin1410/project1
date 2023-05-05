@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    left: 300px;
+}
+#demo{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://akamaividz2.zee5.com/image/upload/w_1286,h_236,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/homefeed_launcher_sticker/1312x312f0f3b262c0d7407f8ab773eeb3d4d60a.jpg"  );
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50px;
+}
+h5{
+    color: white;
+    position: relative;
+    bottom: 200px;
+}
+
+div#image{
+display: flex;
+position: relative;
+bottom: 200px;
+justify-content: space-around;
+border-radius: 00px;
+
+}
+#demo8{
+    background-color: black;
+    outline: 2px groove white;
+    width: 260px;
+    height: 40px;
+    position: relative;
+    right: 60px;
+    font-size: 13px;
+}
+#demo9{
+    background-color: #8230c6;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 60px;
+    border: 1px solid gray;
+}

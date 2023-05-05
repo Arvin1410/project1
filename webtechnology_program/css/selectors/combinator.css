@@ -1,0 +1,24 @@
+
+/* desecendent selectors */
+div h2{
+    color: yellow;
+}
+div aside{
+    color: aqua;
+
+}
+/* child selectors */
+
+section>p{
+    color: brown;
+}
+
+/* adjacent sibling sectors */
+header+pre{
+    color: darkviolet;
+}
+
+/* general sibling selectors */
+h1~pre{
+    color: rgb(16, 136, 16);
+}

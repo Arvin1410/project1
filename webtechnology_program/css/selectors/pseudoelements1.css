@@ -1,0 +1,12 @@
+div::first-letter{
+color: aqua;
+}
+div::first-line{
+color:red;
+}
+div::selection{
+color:orange
+}
+div::marker{
+color: blue;
+}

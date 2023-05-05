@@ -1,0 +1,25 @@
+/* text align */
+pre{
+    text-align: center;
+    text-decoration-line:underline ;
+    text-decoration-color:red ;
+    text-decoration-style:dotted ;
+ text-decoration-thickness:5px ;
+ text-decoration-skip-ink: all;
+ letter-spacing: 10px;
+ word-spacing: 20px;
+}
+h1{
+    color: aqua;
+    background-color: chartreuse;
+    text-align: center;
+}
+/* text shadow */
+div{
+    color: darkgreen;
+    text-shadow: 4px 4px 5px red;
+    /* in text shadow first value-horizontal,second value-vertical,third vale-blur,fourth-color */
+}
+p{
+    text-decoration: underline;
+}

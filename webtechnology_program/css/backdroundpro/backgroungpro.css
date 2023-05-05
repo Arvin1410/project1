@@ -1,0 +1,23 @@
+body{
+background-attachment:scroll;
+background-image: url(./images/single.png);
+background-repeat: no-repeat;
+}
+
+pre{
+
+background-color: brown;
+font-size: 150p
+}
+
+div{
+
+    border: 20px dotted red;
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    background-image: url(../images/single.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center right;
+}

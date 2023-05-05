@@ -1,0 +1,70 @@
+div{
+
+        height: 50px;
+        width: 50px;
+        border: 10px dotted red;
+        background-color: chartreuse;
+        flex: content;
+        justify-content: center;
+        border-radius: 50px;
+        animation-name: single;
+        animation-duration: 5s;
+        animation-iteration-count: 1;   
+        /* no of iteration of animation */
+        /* animation-direction: alternate-reverse; */
+        /* alternate-first forward and backward */
+     /* alternate reverse-first backward and forward */
+    }
+    @keyframes single{
+        0%{
+            transform: translatex(0);
+        }
+        25%{
+            transform: translateY(100%) translateX(50%);
+        }
+        50%{
+            transform: translatex(100%);
+        }
+        75%{
+            transform: translatex(150%) translateY(100%);
+        }
+        100%{
+            transform: translatex(200%);
+        }
+    }
+    article{
+
+        height: 50px;
+        width: 50px;
+        border: 10px dotted red;
+        background-color: chartreuse;
+        flex: content;
+        justify-content: center;
+        border-radius: 50px;
+        position: relative;
+        left: 25px;
+        animation-name: single1;
+        animation-duration: 5s;
+        animation-iteration-count: 1;   
+        /* no of iteration of animation */
+        /* animation-direction: alternate-reverse; */
+        /* alternate-first forward and backward */
+     /* alternate reverse-first backward and forward */
+    }
+    @keyframes single1{
+        0%{
+            transform: translatex(0);
+        }
+        25%{
+            transform: translateY(100%) translateX(50%);
+        }
+        50%{
+            transform: translatex(100%);
+        }
+        75%{
+            transform: translatex(150%) translateY(100%);
+        }
+        100%{
+            transform: translatex(200%);
+        }
+    }

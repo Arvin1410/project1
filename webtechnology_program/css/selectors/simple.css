@@ -1,0 +1,27 @@
+/* id simple selectors */
+#demo{
+    background-color: brown;
+    color: chartreuse;
+}
+/* class simple Selectors */
+.test{
+    background-color: rgb(189, 15, 15);
+    color: blue;
+    font-style:oblique;
+    font-display: unset;
+    font-stretch: expanded;
+}
+/* tagname simple Selectors */
+article{
+    background-color: rgb(4, 58, 18);
+    color: rgb(226, 13, 13);
+    font-size: 50px;
+}
+/* Grouping simple Selectors */
+article,p,pre{
+    background-color: aqua;
+}
+*{
+    background-color: darkgoldenrod;
+    color: dimgray;
+}

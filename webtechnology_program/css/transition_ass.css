@@ -1,0 +1,48 @@
+
+#div1{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    transition:ease ;
+    transition-duration: 10s;
+}
+#div1:hover{
+width: 500px;
+height: 500px;
+}
+
+#div2{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(37, 15, 88);
+    transition:ease-in ;
+    transition-duration: 10s;
+}
+#div2:hover{
+width: 500px;
+height: 500px;
+}
+
+#div3{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(9, 158, 9);
+    transition:ease-out ;
+    transition-duration: 10s;
+}
+#div3:hover{
+width: 500px;
+height: 500px;
+}
+
+#div4{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(184, 215, 7);
+    transition:ease-in-out ;
+    transition-duration: 10s;
+}
+#div4:hover{
+width: 500px;
+height: 500px;
+}

@@ -1,0 +1,19 @@
+div{
+
+    border: 20px dotted red;
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    background-image: url(../images/single.png),url(../images/single.png),url(../images/single.png),
+    url(../images/single.png),url(../images/single.png),url(../images/single.png),
+    url(../images/single.png),url(../images/single.png),url(../images/single.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 100px,100px,100px,100px,100px,100px,100px,100px,100px;
+    background-position: top left,top center,top right,center right,center,center left,bottom left,bottom center,bottom right;
+    /* background-origin works for images */
+    /* background-clip works for background color */
+    background-origin: content-box; 
+    background-clip:padding-box;
+   
+   
+}
