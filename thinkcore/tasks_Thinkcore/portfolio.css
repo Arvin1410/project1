@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth  ;
+}
+body{
+    background-color:gray;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    backdrop-filter: blur(20px);
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+
+}
+header ul{
+position: relative;
+display: flex;
+gap: 40px;
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+header ul li a.active,header ul li a:hover{
+color: greenyellow;
+}
+#home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* background: #222; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+#home::before{
+    content: '';
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    width: 50vw;
+    height: 35vw;
+    background-color: greenyellow;
+    /* border-top-right-radius: 25vw;
+    border-top-left-radius: 25vw; */
+}
+
+#home .content{
+    position: relative;
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+    max-width: 650px;
+    z-index: 10;
+}
+#home .content h2{
+    position: relative;
+    font-size: 5em;
+    color: greenyellow;
+}
+#home .content p{
+   position: relative;
+   color: #fff;
+   font-size: 1.2em;
+   line-height: 1.6em;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    font-size: 1.25em;
+    max-width: 200px;
+    background-color: greenyellow;
+    color: #222;
+    text-align: center;
+   padding: 10px 20px;
+
+}
+
+#home .men{
+    position: absolute;
+    width: 50vw;
+    bottom: 100;
+   right: 0;
+    max-height: 90vh;
+     
+}
+
+#services,#contact,#portfolio{
+    position: relative;
+    /* background: black; */
+    min-height: 100vh;
+    padding: 120px 100px;
+}
+#services p{
+    position: relative;
+    color: #fff;
+    font-size:2em;
+    line-height: 1.6em; 
+}
+#portfolio p{
+    position: relative;
+    color: #fff;
+    font-size:2em;
+    line-height: 1.6em; 
+}
+#contact p{
+    position: relative;
+    color: #fff;
+    font-size:2em;
+    line-height: 1.6em; 
+}
+
+
+footer{
+    position: relative;
+   bottom: 0;
+    left: 0;
+    width: 100%;
+background-color: gray;
+  
+    /* justify-content: space-between; */
+padding: 40px;
+    z-index: 10000;
+    backdrop-filter: blur(20px);
+}
+footer .sectext h2{
+    /* position: relative; */
+    font-size: 5em;
+    color: greenyellow;
+    z-index: 10000;
+}
+footer .sectext p{
+   position: relative;
+   color: #fff;
+   font-size: 1.2em;
+   line-height: 1.6em;
+   justify-content: center;
+   max-width: 20vw;
+}
+
+footer .content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    
+
+
+}
+footer .content a{
+
+background-color:rgb(180, 207, 140);
+height: 100px;
+display: flex;
+border-radius: 20px;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-size: 1.2em;
+color: #fff;
+
+}
+
+.grey{
+    background-color: black;
+}

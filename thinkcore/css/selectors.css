@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100vw;
+    height: 50vh;
+   background-color: red;
+}
+.header{
+    width: 10vw;
+    height: 50vh;
+   background-color: rgb(55, 0, 255);
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: double;
+    text-transform: uppercase;
+}

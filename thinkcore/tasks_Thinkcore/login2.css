@@ -1,0 +1,24 @@
+
+.item1{
+    width: 500px;
+    height: 30px;
+}
+   .item2{
+    width: 245px;
+    height: 30px;
+   }
+    input::placeholder{
+        color: rgb(95, 165, 211);
+    }
+
+    .check{
+        color: rgb(95, 165, 211);
+    }
+
+    button{
+        color: beige;
+        background-color: rgb(95, 165, 211);
+    }
+    h1{
+        color: rgb(23, 114, 175);
+    }
