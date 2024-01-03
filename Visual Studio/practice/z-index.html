@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            height:500px ;
+            justify-content: space-between;
+            position: relative;
+           
+        }
+        #item-1{
+            border: 2px solid black;
+            background-color: bisque;
+            width: 200px;
+            height: 80px;
+            top: 13px;
+            z-index: 15;
+            display: block;
+        }
+        #item-2{
+            border: 2px solid black;
+            background-color: antiquewhite;
+            width: 200px;
+            height: 80px;
+            top: 20px;
+            z-index: 349;
+            display: block;
+            /* display: none; */
+        }
+        #item-3{
+            border: 2px solid black;
+            background-color: pink;
+            width: 200px;
+            height: 80px;
+            display: block;
+        }
+        #item-4{
+            border: 2px solid black;
+            background-color: plum;
+            width: 200px;
+            height: 80px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item-1">FIRST</div>
+        <div class="item" id="item-2">SECOND</div>
+        <div class="item" id="item-3">THIRD</div>
+        <div class="item" id="item-4">FOURHT</div>
+    </div>
+</body>
+</html>

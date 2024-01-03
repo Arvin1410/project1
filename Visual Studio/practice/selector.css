@@ -1,0 +1,20 @@
+/* class selector */
+.sin{
+    color: green;
+    font-size: 100px;
+    background-color: blanchedalmond;
+} 
+
+/* id selector */
+#vin{
+    color: purple;
+    background-color: blanchedalmond;
+    font-size: 100px;
+}
+/* group selector */
+
+footer,span{
+    color:darkblue;
+    font-size: 100px;
+    background-color: blanchedalmond;
+}

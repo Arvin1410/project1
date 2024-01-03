@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onclick="return validation()">
+        <table>
+            <tr>
+                <td>
+                    <label for=""fn>First name</label>
+                </td>
+                <td>
+                    <input type="type" id="fn" name="ss">
+                </td>
+                <td>
+                    <span id="first name"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">submit</button>
+                </td>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script>
+function validation()
+{
+    let fn=document.getElementById('fn').value;
+    if(fn==""){
+        document.getElementById('first name').innerHTML="first name cannot be empty"
+        return false;
+    }
+    if(!isNaN(fn)){
+       document.getElementById('first name').innerHTML="first name cannot be a numbers"
+       return false; 
+    }
+    if(fn.length<=10){
+        document.getElementById('first name').innerHTML="first name length is too short"
+        return false;
+
+    }   
+   
+}
+    </script>
+
+
+</body>
+</html>

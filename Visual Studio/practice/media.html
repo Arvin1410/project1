@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        .container{
+            border: 2px solid black ;
+            font-size: 20px;
+        }
+        .item{
+            background-color: aqua;
+            color: pink;
+            border: 2px solid black ;
+        }
+     @media (max-width:1000px) and (min-width:500px){
+        #item-2{
+            display: block;
+            background-color: plum;
+
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item" id="item-1">MM</div>
+        <div class="item" id="item-2">SIR</div>
+        <div class="item" id="item-3">AJJU</div>
+        <div class="item" id="item-4">ANDE</div>
+    </div>
+</body>
+</html>

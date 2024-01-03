@@ -1,0 +1,12 @@
+let str="siNdhu";
+console.log(str.length);                 //6
+console.log(str.toUpperCase());         //SINDHU
+console.log(str.toLowerCase());         //sindhu
+console.log(str.indexOf('d'));          //3
+console.log(str.charAt(2));             //2
+console.log(str.slice(2,4));            //Nd
+console.log(str.split("").reverse(''));  //['u','h','d','N','i','s']
+console.log(str.split("").reverse('').join(""));  //uhdNis
+console.log(str.endsWith('u'));        //true
+console.log(str.startsWith('s'));      //true
+console.log(str.substring(2));         //Ndhu     

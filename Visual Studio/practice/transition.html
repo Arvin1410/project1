@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .container{
+            background-color: black;
+            height: 500px;
+            align-items: center;
+            justify-content:center ;
+            display: flex;
+        }
+        
+        .box{
+            height:200px;
+            width: 300px;
+            border: 2px solid black;
+            background-color: blue;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            transition-duration: 5s;
+            /* transform: rotate(45deg); */
+            transition-timing-function: ease-in;
+
+        }
+        #box{
+            color: pink;
+        }
+
+        .box:hover{
+            /* transform: rotate(360deg); */
+            /* transform: rotate(90deg); */
+            /* transform: scale(2); */
+            /* transform: translateX(143px); */
+            /* transform: translateY(143px); */
+            /* transform: translate(123px 123px); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div id="box">
+                this is a coding
+            </div>
+            </div>
+        </div>
+    
+</body>
+</html>
